@@ -26,7 +26,7 @@ a{
 
 div{
   display: block;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 /*Header CSS Code*/
 header{
@@ -69,4 +69,67 @@ nav span{
   margin: auto;
   background-color: black;
   width: 100%;
+}
+
+/*Store Section*/
+#store{
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.flex-container-items{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.item img{
+  display: block;
+  height: 200px;
+  margin: 10px;
+}
+
+.item span{
+  disply: block;
+  padding: 5px;
+  font-weight:bold;
+  text-align: center;
+}
+
+/*Location Section*/
+#locations{
+  height: 500px;
+  background-image:url(../photos/img-locations-background.jpg);
+  padding-top: 70px;
+}
+
+#locations .flex-container-locations{
+  margin: auto;
+  width: 1200px;
+  padding-top:5px;
+}
+
+.location{
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis:300px;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+
+/*Contact Section*/
+#contact{
+  height: 200px;
+}
+
+/* Footer Section*/
+footer{
+  text-align: left;
+  padding-left: 20px;
 }
